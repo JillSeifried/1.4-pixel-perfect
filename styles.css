@@ -44,7 +44,7 @@ nav {
   max-width: 1018px;
   margin: 0 auto;
 
-  padding-right: 02.7504912%;
+  padding-right: 02.%;
 }
 
 /* we need to clear the floats! */
@@ -153,14 +153,27 @@ header h4 {
   color: black;
   text-transform: uppercase;
 }
-
+.column1{
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .column1 {
   float: left;
-  width: 40%;
+  margin-left: auto;
+  width: 60%;
+  padding: 165px, 45px, 520px, 0px;
+}
+h1 {
+  font-weight:bold;
+  font-style: normal;
+  margin: 0;
+  font-size: 65x;
+  font-family: sans-serif;
 }
 
 .column2 {
   float: right;
-  width: 40%
+  width: 33%
 
 }
